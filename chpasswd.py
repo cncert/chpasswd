@@ -1,10 +1,11 @@
-from random import choice 
-import string
-import paramiko
 import logging
-from logging.handlers import RotatingFileHandler
-import time
+import string
 import sys
+import time
+from logging.handlers import RotatingFileHandler
+from random import choice
+
+import paramiko
 
 DEFAULT_USER = "root"
 DEFAULT_PASSWORD = "111111"
